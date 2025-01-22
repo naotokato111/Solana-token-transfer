@@ -79,7 +79,7 @@ const TransferSol = () => {
                         value={amount}
                     />
                     <button className="w-full border-2 rounded-lg mt-4 p-3 text-lg hover:bg-white hover:text-black hover:font-bold hover:border-green-500" type="submit">
-                        Transfer sol 
+                        Transfer Token 
                     </button>
                     <a className={`text-green border-2 p-4 rounded-lg bg-green-500 mt-6 ${signature ? "visible" : "hidden"}`} href={link}>View Transaction : <span className="text-blue-900 font-bold underline">{signature.slice(25)}....</span></a>
                     <p className={`text-red border-2 p-4 rounded-lg bg-red-500 mt-6 ${error ? "visible" : "hidden"}`}>{error}</p>
