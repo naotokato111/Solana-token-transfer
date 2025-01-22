@@ -34,6 +34,9 @@ const TransferSol = () => {
         });
 
         transaction.add(instraction);
+
+
+        
         try {
             const signature = await sendTransaction(transaction, connection);
             setSignature(signature);
