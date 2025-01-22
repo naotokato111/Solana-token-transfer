@@ -36,7 +36,7 @@ const TransferSol = () => {
         transaction.add(instraction);
 
 
-        
+
         try {
             const signature = await sendTransaction(transaction, connection);
             setSignature(signature);
@@ -59,7 +59,7 @@ const TransferSol = () => {
                 >
                     <BalanceDisplay />
                     <h1 className="text-lg lg:text-2xl font-semibold text-teal-500 text-center ">
-                        Transfer SOL to your friends in seconds securely 🚀🚀
+                        Transfer Token 
                     </h1> 
                     <input
                         type="text"
